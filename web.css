@@ -1,0 +1,317 @@
+@font-face {
+    font-family: futura;
+    src: url(font/Futura\ Book\ font.woff);
+}
+
+body{
+    margin: 0px;
+    font-family: futura;
+    text-transform: capitalize;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.nav
+{
+    background-color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.menu i{
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    background-color: white;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    line-height: 50px;
+    text-align: center;
+}
+.tickets span{
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.bann-1 img{
+    transform: scale(1.0);
+}
+.tab-1{
+    position: relative;
+}
+.tab-a{
+    background-color: #ffff;
+    box-shadow: 4px 4px 4px #dfdfdf;
+    text-align: center;
+    border-radius: 10px;
+    padding:50px 30px;
+    box-sizing: border-box;
+    width: 600px;
+    position: absolute;
+    right: 60px;
+    bottom: -180px;
+}
+.tab-a:hover{
+    box-shadow: 4px 4px 24px #949292;
+}
+.tab-a h3{
+    font-size: 50px;
+}
+.tab-a a{
+    color: gray;
+}
+.pics{
+    position: relative;
+}
+.pic-2 img{
+    position: absolute;
+    top: 150px;
+    filter: blur(5px);     
+}
+
+.pic-1 img{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    filter: blur(5px);  
+         
+}
+.pic-3 img{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+.star {
+    text-align: end;
+    margin-top: 280px;
+    position: relative;
+}
+.star img{
+    border-radius: 5%;
+}
+.text-a{
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+
+    /* width: 250px; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+.text-b{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.para{
+    margin:100px 0px;
+    text-align: center;
+}
+text{
+    box-sizing: border-box;
+}
+.text p{
+    font-size: 45px;
+
+}
+.bann-b{
+    margin: 0px;
+}
+
+.text-c{
+    position: relative;
+}
+.tab-c{
+    background-color: #ffff;
+    box-shadow: 4px 4px 8px #dfdfdf;
+    text-align: center;
+    border-radius: 10px;
+    padding:50px 30px;
+    box-sizing: border-box;
+    width: 650px;
+    position: absolute;
+    right: 60px;
+    bottom: -100px;
+}
+.tab-c h3{
+    font-size: 50px;
+}
+.tab-c a{
+    color: gray;
+}
+.pics-4{
+    position: relative;
+}
+.pic-41 img{
+    position: absolute;
+    top: 200px;
+    filter: blur(5px); 
+    
+}
+.pic-42 img{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    filter: blur(5px);          
+}
+.pic-43 img{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.text-ab{
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+
+    /* width: 250px; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 400px;
+    left:400px;
+}
+.text-7a{
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 600px;
+    left:150px;
+}
+
+.suit{
+    text-align: end;
+  padding-top: 280px;
+    position: relative; 
+}
+.suit img{
+    border-radius: 5%;
+}
+.text-5b{
+ position: absolute;
+    top: 600px;
+    left: 650px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 2px #dfdfdf;
+    text-align: center;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.bann-d{
+    margin: 100px 0px;
+    border-top: 1px solid gray;
+}
+.box-a{
+    display: flex;
+    margin-top: 50px;
+}
+.box-1{
+    width: 600px;
+}
+.box-1 a{
+    color: gray;
+    text-decoration: none;
+}
+.box-2{
+    width: 600px;
+}
+.box-11{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    margin-right: 200px;
+}
+.box-end{
+    margin:100px 0px;
+    text-align: center;
+}
+.stay{
+    background-color:white;
+    box-shadow: 2px 2px 4px #dfdfdf;
+    width: 1200px;
+    padding: 100px 0px;
+}
+input [type="text"]{
+    text-decoration: none;
+}
+.mail{
+    display: inline-block;
+}
+input[type=text] {
+    width: 400px;
+    padding: 12px;
+    margin: 8px 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[type=submit] {
+    background-color:gray;
+    color: white;
+    border: none;
+    width:200px;
+    padding: 12px;
+    margin:8px 0px;
+    border: 1px solid rgb(234, 229, 229);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.end{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    display: flex;
+    margin-bottom: 30px;
+}
+.end-1{
+    width:400px;
+    padding-top: 20px;
+}
+.end-2{
+    width:200px;
+    line-height: 30px;
+}
+.end-3{
+    width:200px;
+    line-height: 30px;
+
+}
+.end-4{
+    width:200px;
+    line-height: 30px;
+}
+.end-5{
+    width:200px;
+    line-height: 30px;
+    text-align: end;
+}
+
+  
